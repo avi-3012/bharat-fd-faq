@@ -7,16 +7,4 @@ services:
       - "${PORT:-3000}:3000"
     environment:
       - MONGODB_URI=${MONGODB_URI}
-      - REDIS_URL=redis://redis:6379
-    depends_on:
-      - redis
-
-  redis:
-    image: redis:latest
-    volumes:
-      - redis_data:/data
-    ports:
-      - "6379:6379"
-
-volumes:
-  redis_data:
+      - REDIS_URL=${REDIS_URL}
