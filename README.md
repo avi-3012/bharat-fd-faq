@@ -20,14 +20,6 @@
 │   │   └── admin.ts
 │   ├── app.ts
 │   └── server.ts
-├── test/
-│   ├── unit/
-│   │   ├── faq.test.ts
-│   │   ├── translation.test.ts
-│   │   └── cache.test.ts
-├── docker/
-│   └── mongodb/
-│       └── init.js
 ├── .env
 ├── .gitignore
 ├── Dockerfile
