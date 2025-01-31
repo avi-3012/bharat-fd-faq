@@ -2,7 +2,7 @@ export default {
     app: {
       port: parseInt(process.env.PORT || '3000'),
       baseLanguage: process.env.BASE_LANGUAGE || 'en',
-      supportedLanguages: process.env.SUPPORTED_LANGUAGES?.split(',') || ['en', 'es', 'fr']
+      supportedLanguages: process.env.SUPPORTED_LANGUAGES?.split(',') || ['en', 'es', 'fr', 'hi']
     },
     redis: {
       url: process.env.REDIS_URL || 'redis://localhost:6379',
