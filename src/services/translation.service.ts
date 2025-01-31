@@ -5,7 +5,6 @@ import { readFileSync } from 'fs';
 export default {
   translateContent: async (content: string): Promise<Record<string, string>> => {
     const credentials = JSON.parse(
-        process.env.CREDENTIALS || 
         readFileSync(config.googleCloud.credentials, 'utf8')
       );
     const translateClient = new v2.Translate({
