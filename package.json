@@ -11,8 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@admin-bro/express": "^3.1.0",
-    "@admin-bro/mongoose": "^1.1.0",
     "@google-cloud/translate": "^8.5.0",
     "admin-bro": "^4.0.1",
     "cors": "^2.8.5",

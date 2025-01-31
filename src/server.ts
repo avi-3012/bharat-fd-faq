@@ -5,6 +5,7 @@ import app from './app';
 
 const startServer = async () => {
   try {
+    console.log(config.mongo.uri);
     await mongoose.connect(config.mongo.uri);
     await cacheService.initialize();
     
