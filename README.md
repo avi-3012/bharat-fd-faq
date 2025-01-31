@@ -47,7 +47,7 @@ Node, Express, Typescript, MongoDB
     Method | API | Usage
    --- | --- | --- 
    GET | /api/faqs | To retrieve FAQs in base language
-   GET | /api/faqs?lang=<language_code> | To retrieve FAQs in provide language
+   GET | /api/faqs?lang=<language_code> | To retrieve FAQs in provided language
    POST | /api/faqs | To add new faq item in database
    
 POST /api/faqs request body example
